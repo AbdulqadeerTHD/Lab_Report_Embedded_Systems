@@ -1,6 +1,6 @@
-# Raspberry Pi Sense HAT Sensor Display – Lab 02
+# Raspberry Pi Sense HAT Sensor Display 
 
-## 📌 Introduction
+# Introduction
 
 This project demonstrates how to interface the **Raspberry Pi Sense HAT** with a Raspberry Pi using Python. The primary objectives of the lab are:
 
@@ -9,25 +9,24 @@ This project demonstrates how to interface the **Raspberry Pi Sense HAT** with a
 
 The project highlights the basics of embedded systems programming, including SSH setup, sensor interfacing, and actuator output using Python.
 
----
 
-## 🛠️ Setup Instructions
+##  Setup Instructions
 
-### ✅ Hardware Required
+###  Hardware Required
 - Raspberry Pi 3 or 4 (any model with 40-pin GPIO header)
 - Raspberry Pi Sense HAT (connected to the GPIO pins)
 - MicroSD card with Raspberry Pi OS
 - Network access (Wi-Fi or Ethernet)
 - Computer with SSH client (e.g., PuTTY on Windows)
 
-### ✅ Software Installation on Raspberry Pi
+### Software Installation on Raspberry Pi
 
 ```bash
 sudo apt update
 sudo apt install sense-hat
 ```
 
-### ✅ Access via SSH (Headless Setup)
+### Access via SSH (Headless Setup)
 
 If using a headless Raspberry Pi (no monitor):
 1. Enable SSH: Place an empty file named `ssh` (no extension) in the `/boot` directory of the SD card.
@@ -38,59 +37,48 @@ If using a headless Raspberry Pi (no monitor):
     - Username: `pi`
     - Password: `raspberry` (default)
 
----
 
-## 🚀 How to Run the Code
+##  How to Run the Code
 
-### 💬 Scroll Message Script
+### Scroll Message Script
 
 ```bash
 python3 sense_led.py
+
+![Image](https://github.com/user-attachments/assets/cbf02e29-4b62-4e5e-8a89-4919c1498fb5)
 ```
 
 > This displays a scrolling red message: `"Hello, Abdul Qadeer!"`
 
-### 🌡️ Sensor Display Script
+###  Sensor Display Script
 
 ```bash
 python3 sense_sensor.py
+
+![Image](https://github.com/user-attachments/assets/6efdfe26-126b-4296-ad34-a64415303adf)
+
 ```
 
 > This script continuously displays temperature, humidity, and pressure on the LED matrix. Press `Ctrl + C` to exit.
 
----
 
-## 🧾 Files Included
+##  Files Included
 
 - `sense_led.py`: Displays a red scrolling message.
 - `sense_sensor.py`: Shows live environmental sensor values.
-- `README.md`: Setup and documentation.
 
----
 
-## 📷 Results Preview
+##   Results Preview
 
-### 🔴 LED Matrix – Text Scroll
+###  LED Matrix – Text Scroll
 
-![Scrolling Text Output](images/led_red_text.png)
+![Image](https://github.com/user-attachments/assets/47d6b416-0729-4521-a540-335fd88bdeef)
 
-### ⚪ LED Matrix – Sensor Readings
 
-![Sensor Reading Output](images/led_sensor_output.png)
+###   LED Matrix – Sensor Readings
 
----
+![Image](https://github.com/user-attachments/assets/7d5c570e-5d63-4e72-92ec-cc1689431312)
 
-## 📚 References
 
-- [Raspberry Pi Sense HAT Product Page](https://shop.pimoroni.com/products/raspberry-pi-sense-hat)
-- [Sense HAT Python API](https://pythonhosted.org/sense-hat/api/)
-- [PuTTY SSH Client](https://www.putty.org)
-- [Raspberry Pi Official Docs](https://www.raspberrypi.com/documentation/computers/getting-started.html)
 
----
 
-## 👨‍💻 Author
-
-**Abdul Qadeer**  
-Technische Hochschule Deggendorf – Campus Cham  
-Course: Embedded Systems | Semester: SS25
