@@ -45,7 +45,7 @@ If using a headless Raspberry Pi (no monitor):
 ```bash
 python3 sense_led.py
 
-![Image](https://github.com/user-attachments/assets/cbf02e29-4b62-4e5e-8a89-4919c1498fb5)
+![Image](https://github.com/user-attachments/assets/472be7ef-325f-457c-8d57-32eef37edaef)
 ```
 
 > This displays a scrolling red message: `"Hello, Abdul Qadeer!"`
@@ -55,7 +55,7 @@ python3 sense_led.py
 ```bash
 python3 sense_sensor.py
 
-![Image](https://github.com/user-attachments/assets/6efdfe26-126b-4296-ad34-a64415303adf)
+![Image](https://github.com/user-attachments/assets/9accb4ae-08a2-499a-900c-562fb644297a)
 
 ```
 
