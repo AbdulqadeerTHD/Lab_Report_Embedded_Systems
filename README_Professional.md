@@ -45,8 +45,10 @@ If using a headless Raspberry Pi (no monitor):
 ```bash
 python3 sense_led.py
 
-![Image](https://github.com/user-attachments/assets/472be7ef-325f-457c-8d57-32eef37edaef)
+
 ```
+
+![Image](https://github.com/user-attachments/assets/8545b751-fd94-4998-ba82-c595d7234a5f)
 
 > This displays a scrolling red message: `"Hello, Abdul Qadeer!"`
 
@@ -55,9 +57,8 @@ python3 sense_led.py
 ```bash
 python3 sense_sensor.py
 
-![Image](https://github.com/user-attachments/assets/9accb4ae-08a2-499a-900c-562fb644297a)
-
 ```
+![Image](https://github.com/user-attachments/assets/9accb4ae-08a2-499a-900c-562fb644297a)
 
 > This script continuously displays temperature, humidity, and pressure on the LED matrix. Press `Ctrl + C` to exit.
 
